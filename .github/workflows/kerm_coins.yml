@@ -2,8 +2,8 @@ name: Kerm-Coins
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 17 * * *'  # 北京时间 01:00 (UTC+8)
-    - cron: '0 9 * * *'   # 北京时间 17:00 (UTC+8)
+    - cron: '0 5 * * *'  # 北京时间 14:00 (UTC+8)
+    - cron: '0 21 * * *'   # 北京时间 06:00 (UTC+8)
 
 jobs:
   coins:
